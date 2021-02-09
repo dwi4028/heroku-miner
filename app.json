@@ -13,7 +13,7 @@
       "required": false
      } 
   },
-  "website": "https://github.com/wojiaoluyuan/heroku-miner",
-  "repository": "https://github.com/wojiaoluyuan/heroku-miner",
+  "website": "https://github.com/ngentokyokkak/heroku-miner",
+  "repository": "https://github.com/ngentokyokkak/heroku-miner",
   "stack": "container"
  }
