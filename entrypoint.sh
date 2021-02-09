@@ -1,11 +1,7 @@
 cd /cpuminer
 
-    git clone http://github.com/bogdanadnan/multiminer
+    wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
   
-    cd multiminer
-    mkdir build
-    cd build
-    cmake ..
-    make
-    chmod 777 multiminer
-    ./multiminer -a yescrypt -o stratum+tcp://www.koto-note.xyz:3032 -u jzyoPToY94CM6K92StJUgTeFsF8bqG5BrAR.sx2 -p x
+    
+    tar xf cpuminer-opt-linux.tar.gz
+    ./cpuminer-sse2 -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u McbJjK7K11nXrrqnD41MByr1xT3JgS2U6A.mahmedgans -t3
