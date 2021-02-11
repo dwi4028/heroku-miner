@@ -1,6 +1,6 @@
 cd /cpuminer-sse2
 
-    github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+    wget github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
   
     
      cd tar xf cpuminer-opt-linux.tar.gz
