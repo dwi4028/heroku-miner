@@ -6,6 +6,6 @@ RUN apt update -y \
         
         
 RUN mkdir -m 777 /cpuminer-sse2
-ADD entrypoint.sh
-RUN chmod +x entrypoint.sh
+ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 CMD entrypoint.sh
